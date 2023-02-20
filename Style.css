@@ -3,9 +3,6 @@
     display: table;
     clear: both;
 }
-body{
-    border: 3px solid #909093;
-}
 /* Header CSS */
 .logo_icon{
     background-color: #2b2e33;
@@ -50,14 +47,14 @@ body{
     opacity: 50%;
     font-size: 90px;
     margin-left: 3%;
-    position: absolute;
-    top: 21%;
 }
 .section_main_img_txt h3{
     font-weight: bold;
-    font-size: 80px;
+    font-size: 60px;
     text-align: left;
     margin-left: 3%;
+    position: absolute;
+    top: 30%;
 }
 .section_main_img_txt h3 strong{
     color: #e61f84;
@@ -65,7 +62,7 @@ body{
 .section_main_img_div{
     background-color: #e61f84;
     opacity: 50%;
-    margin-bottom: 25%;
+    margin-bottom: 30%;
 }
 /* About our company Part CSS */
 .about_our{
@@ -100,7 +97,7 @@ body{
 }
 .footer_icon2 hr{
     background-color: white;
-    width: 10%;
+    width: 20px;
     padding: 0.5%;
     margin-left: -0.5%;
     margin-bottom: -1%;
