@@ -1,8 +1,4 @@
-.row:after{
-    content: "";
-    display: table;
-    clear: both;
-}
+
 /* Header CSS */
 .logo_icon{
     background-color: #2b2e33;
@@ -14,9 +10,12 @@
 }
 .txt_address{
     background-color: #fff;
+    margin-left: 8%;
 }
 .thrid_div{
-    background-color: #f8f8f8;
+    background-color: #000000;
+    opacity: 10%;
+    margin-left: -10%;
 }
 /* Section CSS */
  .section_main_img{
@@ -47,6 +46,8 @@
     opacity: 50%;
     font-size: 90px;
     margin-left: 3%;
+    position: absolute;
+    top: 25%;
 }
 .section_main_img_txt h3{
     font-weight: bold;
@@ -54,7 +55,7 @@
     text-align: left;
     margin-left: 3%;
     position: absolute;
-    top: 30%;
+    top: 32%;
 }
 .section_main_img_txt h3 strong{
     color: #e61f84;
@@ -62,7 +63,7 @@
 .section_main_img_div{
     background-color: #e61f84;
     opacity: 50%;
-    margin-bottom: 30%;
+    margin-bottom: 35%;
 }
 /* About our company Part CSS */
 .about_our{
@@ -85,6 +86,10 @@
     border-right: 1px solid #d9dbdf;
     height: 100%;
 }
+.fast_replay p,.file_mangment p,.documentation p{
+    text-align: justify;
+    padding-right: 10%;
+}
 .fast_replay h6,.file_mangment h6,.documentation h6{
     color: #e61f84;
 }
@@ -103,5 +108,8 @@
     margin-bottom: -1%;
 }
 .footer_icon2{
-    margin-top: -1%;
+    margin-top: -1.5%;
+}
+.footer_icon1,.footer_icon2,.footer_icon3,.footer_icon4{
+    padding: 1%;
 }
