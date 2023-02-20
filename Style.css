@@ -1,0 +1,110 @@
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+body{
+    border: 3px solid #909093;
+}
+/* Header CSS */
+.logo_icon{
+    background-color: #2b2e33;
+}
+.logo_icon img{
+    width: 100%;
+    height: 100%    ;
+    align-items: center;
+}
+.txt_address{
+    background-color: #fff;
+}
+.thrid_div{
+    background-color: #f8f8f8;
+}
+/* Section CSS */
+ .section_main_img{
+    background-image: url('bg_img.jpeg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+} 
+.section_main_img_txt{
+    color: white;
+    background-color:  #1979ada5;
+    padding: 5%;
+    text-align: left;
+    width: 80%;
+}
+.section_main_img_txt h4{
+    margin-left: 3%;
+}
+.section_main_img_txt hr{
+    width: 15%;
+    height: 2%;
+    background-color: white;
+    margin-left: 3%;
+}
+.section_main_img_txt h2{
+    font-weight: 1000;
+    opacity: 50%;
+    font-size: 90px;
+    margin-left: 3%;
+    position: absolute;
+    top: 21%;
+}
+.section_main_img_txt h3{
+    font-weight: bold;
+    font-size: 80px;
+    text-align: left;
+    margin-left: 3%;
+}
+.section_main_img_txt h3 strong{
+    color: #e61f84;
+}
+.section_main_img_div{
+    background-color: #e61f84;
+    opacity: 50%;
+    margin-bottom: 25%;
+}
+/* About our company Part CSS */
+.about_our{
+    padding: 2%;
+    background-color: #f8f8f8;
+}
+.about_our_heading{
+    margin-left: 0.5%;
+    border-left: 8px solid #e61f84;
+}
+/* About us company CSS */
+.about_us{
+    padding: 3%;
+    margin-left: 5%;
+}
+.fast_replay img,.file_mangment img,.documentation img{
+    width: 10%;
+}
+.fast_replay,.file_mangment{
+    border-right: 1px solid #d9dbdf;
+    height: 100%;
+}
+.fast_replay h6,.file_mangment h6,.documentation h6{
+    color: #e61f84;
+}
+/* Footer CSS */
+.footer{
+    background-color: #2b2e33;
+    color: white;
+    text-transform: uppercase;
+    padding: 3%;
+}
+.footer_icon2 hr{
+    background-color: white;
+    width: 10%;
+    padding: 0.5%;
+    margin-left: -0.5%;
+    margin-bottom: -1%;
+}
+.footer_icon2{
+    margin-top: -1%;
+}
